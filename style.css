@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 header{
     
@@ -205,7 +204,7 @@ nav a{
     /* justify-content: center; */
     position: fixed;
     left: 50%;
-    bottom:  30px;
+    bottom:  50px;
 }
 .map-btn button{
     height: 48px;
@@ -219,4 +218,35 @@ nav a{
     width: 15px;
     height: 15px;
     background-color: aliceblue;
+}
+.foot-back{
+    background-color:ivory;
+
+  height: 30px;
+  width: 100%;  
+  position: fixed;
+  bottom: 0px;
+}
+.f-container{
+    align-items: center;
+    height: 30px;
+    position: fixed;
+    left: 140px;
+    bottom: 0px;
+    width: 1250px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.f-container li{
+    list-style: none;
+    margin-right:20px ;
+}
+.f-left{
+    display: flex;
+}
+
+
+.f-right{
+    display: flex;
 }
